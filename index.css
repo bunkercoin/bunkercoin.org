@@ -1,0 +1,17 @@
+body {
+    background: #77c277 url("assets/bkc.png") no-repeat fixed center center;
+}
+
+#main {
+    float: left;
+    margin-left: 10%;
+    margin-top: 5%;
+
+    display: grid;
+    width: 80%;
+    height: 90%;
+    background-color: rgba(197, 197, 197, .8);
+
+    border-radius: 15px;
+    text-align: center;
+}
