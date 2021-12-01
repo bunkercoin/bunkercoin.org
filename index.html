@@ -1,25 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bunkercoin</title>
-    <link rel="shortcut icon" href="assets/bkc.png" type="image/x-icon">
-    <link rel="stylesheet" href="index.css">
+  
+  <title>Bunkercoin</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+  .jumbotron {
+	background: #77c277 url("assets/bkc.png") no-repeat center;
+	background-color: rgba(119,192,119,1);
+    color: #fff;
+    padding: 100px 25px;
+	background-blend-mode: multiply;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  </style>
 </head>
-
 <body>
-    <div id="main">
-        <h1 style="text-align: left; margin-left: 20%;">Bunkercoin</h1>
 
-        <h3>
-            &nbsp;&nbsp;&nbsp;Bunkercoin is a cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of work (POW).
-            Taking development cues from Dogecoin and Bitcoin, Bunkercoin currently employs a simplified variant of
-            scrypt.<br><br>
-            View the source code or download precompiled binaries at <a href="https://github.com/bunkercoin-project/bunkercoin">our GitHub page!</a>
-        </h3>
-    </div>
+<div class="jumbotron text-center">
+  <h1>Bunkercoin</h1> 
+  <p>Definetly not a shitcoin</p> 
+</div>
 
+<!-- Container (About Section) -->
+<div class="container-fluid text-center">
+  <h4>Bunkercoin is a cryptocurrency like Bitcoin, although it does not use SHA256 as its proof of work (POW). Taking development cues from Dogecoin and Bitcoin, Bunkercoin currently employs a simplified variant of scrypt.</h4>
+
+
+  		<button class="btn btn-default btn-lg">Pump</button>
+
+
+  		<button class="btn btn-default btn-lg">Dump</button>
+
+
+</div>
+
+<div class="container-fluid bg-grey">
+  <h2>Github</h2>
+
+  <h4>View the source code or download precompiled binaries at our <a href="https://github.com/bunkercoin-project/bunkercoin">GitHub page</a>!</h4>      
+
+</div>
+
+<footer class="container-fluid text-center">
+  <a href="#" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p>Made with memes</p>
+</footer>
+
+</body>
 </html>
