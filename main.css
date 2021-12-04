@@ -10,6 +10,13 @@
     background: none;
 }
 
+.navbar .navbar-selected {
+    background-color: #C0DCF3;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #90C8F6;
+}
+
 body {
     background-color: #F0F0F0;
     font-family: "Comic Sans MS";
