@@ -69,3 +69,10 @@ a:active {
     color: #77C277;
     background-color: #F0F0F0;
 }
+
+
+/* Enable codeblocks in case the browser doesn't support them */
+
+code {
+    font-family: monospace;
+}
