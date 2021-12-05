@@ -1,3 +1,9 @@
+/* navbar */
+
+.navbar {
+    text-align: center;
+}
+
 .navbar .navbar-green-icon {
     color: #77C277;
 }
@@ -24,10 +30,16 @@
     border-color: #90C8F6;
 }
 
+
+/* Set Comic Sans font and background color on the body */
+
 body {
     background-color: #F0F0F0;
     font-family: "Comic Sans MS";
 }
+
+
+/* Patch to show the parent font on buttons too */
 
 button {
     font-family: inherit;
