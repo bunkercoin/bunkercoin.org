@@ -45,3 +45,26 @@ button {
     font-family: inherit;
     font-size: 1em;
 }
+
+
+/* Improve the links */
+
+a:link,
+a:visited {
+    color: black;
+    text-decoration: underline;
+}
+
+a:hover,
+a:active {
+    color: #77C277;
+    text-decoration: underline;
+}
+
+
+/* Selection customization™ */
+
+::selection {
+    color: #77C277;
+    background-color: #F0F0F0;
+}
