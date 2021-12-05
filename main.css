@@ -9,7 +9,6 @@
 }
 
 .navbar .navbar-button {
-    font-size: 1.3em;
     margin-left: 5px;
     margin-right: 5px;
     border: none;
@@ -36,6 +35,7 @@
 body {
     background-color: #F0F0F0;
     font-family: "Comic Sans MS";
+    font-size: 1.3em;
     color: #212121;
 }
 
