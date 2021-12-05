@@ -76,3 +76,11 @@ a:active {
 code {
     font-family: monospace;
 }
+
+
+/* Set 10% margin on left and right for the main div */
+
+.main {
+    margin-left: 10%;
+    margin-right: 10%;
+}
