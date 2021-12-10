@@ -1,5 +1,4 @@
 /* navbar */
-
 .navbar {
     text-align: center;
 }
@@ -31,7 +30,6 @@
 
 
 /* Set Comic Sans font and background color on the body */
-
 body {
     background-color: #F0F0F0;
     font-family: "Comic Sans MS";
@@ -41,7 +39,6 @@ body {
 
 
 /* Patch to show the parent font on buttons too */
-
 button {
     font-family: inherit;
     font-size: 1em;
@@ -49,7 +46,6 @@ button {
 
 
 /* Improve the links */
-
 a:link,
 a:visited {
     color: black;
@@ -64,7 +60,6 @@ a:active {
 
 
 /* Selection customization™ */
-
 ::selection {
     color: #77C277;
     background-color: #F0F0F0;
@@ -72,14 +67,12 @@ a:active {
 
 
 /* Enable codeblocks in case the browser doesn't support them */
-
 code {
     font-family: monospace;
 }
 
 
 /* Set 10% margin on left and right for the main div */
-
 .main {
     margin-left: 10%;
     margin-right: 10%;
