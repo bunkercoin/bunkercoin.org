@@ -1,0 +1,49 @@
+<title>Bunker Coin / Getting started</title>
+
+<link rel="stylesheet" href="../style.css">
+<link rel="icon" href="../assets/bunker_logo.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+<div class="navbar">
+    <div class="title">Bunker Coin</div>
+    <a href="https://bunkercoin.xyz/"><button class="button"><i class="fa-solid fa-house color"></i> Home</button></a>
+    <a href="https://bunkercoin.xyz/about/"><button class="button"><i class="fa-solid fa-file-lines color"></i> About</button></a>
+    <a href="https://bunkercoin.xyz/get-started/"><button class="button"><i class="fa-solid fa-download color"></i> Getting Started</button></a>
+    <a href="https://bunkercoin.xyz/donate/"><button class="button"><i class="fa-solid fa-circle-dollar-to-slot color"></i> Donating</button></a>
+    <a href="https://bunkercoin.xyz/contact/"><button class="button"><i class="fa-solid fa-address-card color"></i> Contact</button></a>
+    
+    <div class="bodybox">
+        <br>
+        <div class="textbox">
+            <h1>Getting started</h1>
+            <p>
+                To get started either mining or holding Bunkercoins, you need <a href="//github.com/bunkercoin-project/bunkercoin/releases" target="_blank" rel="noopener noreferrer">the
+                    core wallet</a> the very least. It's available at our <i class="fa-brands fa-github"></i> GitHub page, located at <a href="//github.com/bunkercoin-project/bunkercoin" target="_blank" rel="noopener noreferrer">github.com/bunkercoin-project/bunkercoin</a>.
+                <br><br> To start mining, you can download any miner that supports the Scrypt algorithm and either the stratum+tcp protocol (if you want to mine on a pool) or the Bitcoin rpc method (if you want to solo mine). Some recommended ones are:
+            </p>
+            <ul>
+                <li>
+                    <i class="fa-solid fa-laptop"></i> CPU:
+                    <a href="//github.com/JayDDee/cpuminer-opt" target="_blank" rel="noopener noreferrer">cpuminer-opt</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-desktop"></i> GPU:
+                    <a href="//github.com/genesismining/sgminer-gm" target="_blank" rel="noopener noreferrer">sgminer-gm
+                        (AMD)</a> or <a href="//cgminer.info" target="_blank" rel="noopener noreferrer">CGMiner (NVIDIA)</a>
+                </li>
+                <li>
+                    <i class="fa-solid fa-microchip"></i> ASIC:
+                    <a href="//bfgminer.org/" target="_blank" rel="noopener noreferrer">BFGMiner</a>
+                </li>
+            </ul>
+            <p>
+                If you're planning on pool mining, you can choose a pool <a href="//miningpoolstats.stream/bunkercoin" target="_blank" rel="noopener noreferrer">at miningpoolstats.stream</a>. Most pools provide a utility to generate the command line arguments
+                for you. If they don't, you can ask for help on <a href="//discord.gg/CCkQQWqNcM" target="_blank" rel="noopener noreferrer">our Discord server.</a>
+            </p>
+            <p>
+                If you're planning on solo mining, you can just start bunkercoind with
+                <code>-rpcuser=user -rpcpassword=password -rpcport=1234</code>, point your miner to
+                <code>http://user:password@127.0.0.1:1234</code>, disable stratum and you'll be good to go. If you need extra help, you can leave your question behind on <a href="//discord.gg/CCkQQWqNcM" target="_blank" rel="noopener noreferrer">our Discord server.</a>
+        </div>
+    </div>
+</div>
