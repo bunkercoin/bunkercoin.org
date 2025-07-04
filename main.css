@@ -72,8 +72,8 @@ code {
 }
 
 
-/* Set 10% margin on left and right for the main div */
-.main {
+/* Set 10% margin on left and right for the main and announcement div */
+.main, .announcement {
     margin-left: 10%;
     margin-right: 10%;
 }
