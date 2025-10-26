@@ -1,3 +1,3 @@
-# bunkercoin.org
+# bunkercoin.github.io
 
-The official website for the Bunkercoin project, available at https://bunkercoin.org (hijack)!
+The official website for the Bunkercoin project, available at https://bunkercoin.github.io!
